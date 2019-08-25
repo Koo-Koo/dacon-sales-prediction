@@ -2,15 +2,18 @@
 Dacon mission
 Dacon Mission 9 펀다 상점 매출 예측 경진대회, 2019.7.11 ~ 2019.8.30
 
-## arima
-- 
 
-## fbprophet
--
+### fbprophet
+- facebook prophet
+- negative data 제거
+- national holiday data 포함
 
-## lstm
-- single input 
+
+### lstm
+- keras
+- negative data 제거
 - multiple input & multiple output
 
-## arima2
-- 
+### arima2
+- statsmodels ARIMA
+- negative data 제거
