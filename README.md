@@ -82,3 +82,8 @@ using  | option         | Score
 xgboost | mae, log, pos             | 840,476
 xgboost | mae, log, pos, param      | 850,727
 xgboost | mape, log, pos            | 838,562
+
+
+- 마감일 최종 결과
+
+![img](https://github.com/Koo-Koo/dacon-sales-prediction/blob/master/dacon_result.png)
