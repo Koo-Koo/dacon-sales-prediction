@@ -22,6 +22,10 @@
 - negative data 제거
 - sampling
 
+### xgboost
+- xgboost
+- negative data 제거
+
 ### 제출결과
 
 
@@ -64,11 +68,17 @@ prophet | 2W6P, CPS0.5exp, logistic  | 1,002,118
 
 - 8월 28일
 
-MAE기반 피팅 평가함수를 두고 피팅 잘안된경우 CPS 증가
+MAE기반 피팅 평가함수를 두고 피팅 잘안된경우 CPS 증가  
 
 using  | option         | Score
 ------- | --------------- | -------
 prophet | 2W6P, CPS1to0.5, logistic | 911,445
 prophet | 2W6P, CPS10to1, logistic  | 928,103
 
+xgboost: MAE기반 평가함수를 사용. param의 경우 거래일 비율을 각 결과값에 곱해줌. MAPE기반 평가함수 사용.  
 
+using  | option         | Score
+------- | --------------- | -------
+xgboost | mae, log, pos             | 840,476
+xgboost | mae, log, pos, param      | 850,727
+xgboost | mape, log, pos            | 838,562
