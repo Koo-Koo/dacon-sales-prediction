@@ -46,9 +46,9 @@ arima | 1.8 | 1,130,274
 
 using  | option         | Score
 ------- | --------------- | -------
-prophet | 2W6PCPS0.05+ | 985,656
-prophet | 2W6PCPS0.5+  | 943,433
-prophet | 2W6PCPS0.050 | 950,163
+prophet | 2W6P, CPS0.05, pos | 985,656
+prophet | 2W6P, CPS0.5, pos  | 943,433
+prophet | 2W6P, CPS0.05, zero | 950,163
 
 
 - 8월 27일  
@@ -57,7 +57,17 @@ prophet | 2W6PCPS0.050 | 950,163
 
 using  | option         | Score
 ------- | --------------- | -------
-prophet | 2W6P,CPS0.05exp,logistic | 927,546
-prophet | 2W6P,CPS0.5exp,logistic  | 1,002,118
+prophet | 2W6P, CPS0.05exp, logistic | 927,546
+prophet | 2W6P, CPS0.5exp, logistic  | 1,002,118
+
+
+- 8월 28일
+
+MAE기반 피팅 평가함수를 두고 피팅 잘안된경우 CPS 증가
+
+using  | option         | Score
+------- | --------------- | -------
+prophet | 2W6P, CPS1to0.5, logistic | 911,445
+prophet | 2W6P, CPS10to1, logistic  | 928,103
 
 
