@@ -86,4 +86,4 @@ xgboost | mape, log, pos            | 838,562
 
 - 마감일 최종 결과
 
-![img](https://github.com/Koo-Koo/dacon-sales-prediction/blob/master/dacon_result.png)
+![img](https://github.com/Koo-Koo/dacon-sales-prediction/blob/master/dacon_result_final.JPG)
